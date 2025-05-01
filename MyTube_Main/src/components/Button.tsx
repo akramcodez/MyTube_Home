@@ -5,8 +5,9 @@ import { ComponentProps } from 'react';
 const buttonVariants = cva(['transition-colors'], {
   variants: {
     variant: {
-      default: ['bg-secondary', 'hover:bg-secondary-hover'],
-      ghost: ['hover:bg-gray-100'],
+      default: ['bg-gray-100', 'hover:bg-secondary-hover'],
+      ghost: ['hover:bg-gray-200'],
+      dark: ['bg-gray-800', 'text-white'],
     },
     size: {
       default: ['rounded', 'p-2'],

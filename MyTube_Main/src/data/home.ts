@@ -1,0 +1,15 @@
+export const categories = [
+  'All',
+  'TypeScript',
+  'JavaScript',
+  'React',
+  'Next.js',
+  'Node.js',
+  'Express',
+  'MongoDB',
+  'GraphQL',
+  'Redux',
+  'HTML',
+  'CSS',
+  'Tailwind CSS',
+];
