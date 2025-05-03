@@ -1,5 +1,5 @@
 import { ArrowLeft, Bell, Menu, Mic, Search, Upload, User } from 'lucide-react';
-import logo from '../assets/react.svg';
+import logo from '../assets/logo.png';
 import { Button } from '../components/Button';
 import { useState } from 'react';
 import useScreenSize from '../hooks/useScreenSize';
@@ -21,7 +21,7 @@ export default function PageHeader() {
           <Menu />
         </Button>
         <a href="/">
-          <img src={logo} className="h-6" />
+          <img src={logo} className="h-8" />
         </a>
       </div>
       <form

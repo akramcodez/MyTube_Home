@@ -10,7 +10,7 @@ type Categories = {
 
 const TANSLATE_AMOUT = 200;
 
-export function Categories({
+export default function Categories({
   categories,
   selectedCategory,
   onSelect,
