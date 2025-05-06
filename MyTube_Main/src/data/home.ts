@@ -43,13 +43,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/CuQmQpvw04I/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/2.gif',
     channel: {
-      id: 'apnacollege',
+      id: 'ApnaCollegeOfficial',
       name: 'Apna College',
       profileUrl:
         'https://yt3.googleusercontent.com/FEcjRtez5od8UowDo6tTt9WlE-MrIFEmcwPMTORmK9Swk6KCklOmA3xfIG9WuLWfNYfNThQE=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '100k',
-    postAt: new Date('2025-11-15'),
+    postAt: new Date('2025-01-15'),
     duration: '20:33',
     vedioUrl: 'https://www.youtube.com/watch?v=CuQmQpvw04I',
   },
@@ -59,13 +59,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/iNWT3SAWBFA/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/3.gif',
     channel: {
-      id: 'harkiratsingh',
+      id: 'harkirat1',
       name: 'Harkirat Singh',
       profileUrl:
         'https://yt3.googleusercontent.com/C25u3DcSguL-wd3GaO110Q1fyO5ClTraTjtF72kJhZtpQwuAv3zLmb7K-ZLJecQQJBVvP1McmA=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '89k',
-    postAt: new Date('2025-12-01'),
+    postAt: new Date('2025-01-01'),
     duration: '58:58',
     vedioUrl: 'https://www.youtube.com/watch?v=iNWT3SAWBFA',
   },
@@ -76,13 +76,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/7ov9m7iioxg/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/4.gif',
     channel: {
-      id: 'fraz',
+      id: 'mohammadfraz',
       name: 'Fraz',
       profileUrl:
         'https://yt3.googleusercontent.com/ULtErne6BCpH55ZB0rnUyZzP6GpStxW0FZ4d_6nPM_5EHCsPhNDyXiOCKtzxTxwM140rP9bW5Q=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '20k',
-    postAt: new Date('2025-01-10'),
+    postAt: new Date('2023-01-10'),
     duration: '14:16',
     vedioUrl: 'https://www.youtube.com/watch?v=7ov9m7iioxg',
   },
@@ -92,13 +92,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/r6lFBUytgDM/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/5.gif',
     channel: {
-      id: 'piyushgarg',
+      id: 'piyushgargdev',
       name: 'Piyush Garg',
       profileUrl:
         'https://yt3.googleusercontent.com/3acddexuFlA5yKRS2--11NeqhCiik-0cntUPjk_QjlsA4ScmQUPWNmeBLweVUQjWXTCLT26lsw=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '20k',
-    postAt: new Date('2025-10-20'),
+    postAt: new Date('2025-03-20'),
     duration: '34:30',
     vedioUrl: 'https://youtube.com/watch?v=r6lFBUytgDM',
   },
@@ -108,13 +108,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/H3wgAU0RVG0/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/6.gif',
     channel: {
-      id: 'neerajwalia',
+      id: 'ezsnippat',
       name: 'Neeraj Walia',
       profileUrl:
         'https://yt3.googleusercontent.com/sQlwCNEVDQ-BQ0n-cyHkZ2WykIaz9mCxiq4SlbWjbITYulw75dJQW__AW42O4Y6FfVzaZR-ZBA=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '36k',
-    postAt: new Date('2025-02-12'),
+    postAt: new Date('2025-04-12'),
     duration: '1:19',
     vedioUrl: 'https://www.youtube.com/watch?v=H3wgAU0RVG0',
   },
@@ -141,7 +141,7 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/GE47BheqK9Q/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/8.gif',
     channel: {
-      id: 'nishantchahar',
+      id: 'NishantChahar11',
       name: 'Nishant Chahar',
       profileUrl:
         'https://yt3.googleusercontent.com/ytc/AIdro_k2O-2O1fL6S58poofnawszoBfzsl1YBpciM9BDhupgLToC=s160-c-k-c0x00ffffff-no-rj',
@@ -157,13 +157,13 @@ export const videos = [
     thumbnailUrl: 'https://img.youtube.com/vi/xEUbfrDvhSs/maxresdefault.jpg',
     thumbnailGif: '/src/assets/gifs/9.gif',
     channel: {
-      id: 'sheryianscodingschool',
+      id: 'sheryians',
       name: 'Sheryians Coding School',
       profileUrl:
         'https://yt3.googleusercontent.com/14Nf520-HXNdCmvBnCJMZm2NxCgmD-skHJvutlO3Zd6FjyNf8rXHzz9RHf7A44pLDY7z63s8=s160-c-k-c0x00ffffff-no-rj',
     },
     views: '17k',
-    postAt: new Date('2024-11-01'),
+    postAt: new Date('2025-05-01'),
     duration: '59:29',
     vedioUrl: 'https://www.youtube.com/watch?v=xEUbfrDvhSs',
   },
