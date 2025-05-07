@@ -1,3 +1,13 @@
+import gif1 from '../assets/gifs/1.gif';
+import gif2 from '../assets/gifs/2.gif';
+import gif3 from '../assets/gifs/3.gif';
+import gif4 from '../assets/gifs/4.gif';
+import gif5 from '../assets/gifs/5.gif';
+import gif6 from '../assets/gifs/6.gif';
+import gif7 from '../assets/gifs/7.gif';
+import gif8 from '../assets/gifs/8.gif';
+import gif9 from '../assets/gifs/9.gif';
+
 export const categories = [
   'All',
   'TypeScript',
@@ -25,7 +35,7 @@ export const videos = [
     id: '1',
     title: 'Top Skills Every Software Engineer Should Learn in 2025 🔥',
     thumbnailUrl: 'https://img.youtube.com/vi/JJjBPBWaeYU/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/1.gif',
+    thumbnailGif: gif1,
     channel: {
       id: 'codewithharry',
       name: 'CodeWithHarry',
@@ -41,7 +51,7 @@ export const videos = [
     id: '2',
     title: 'Complete System Design Roadmap 2025 | HLD & LLD by Shradha Maam',
     thumbnailUrl: 'https://img.youtube.com/vi/CuQmQpvw04I/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/2.gif',
+    thumbnailGif: gif2,
     channel: {
       id: 'ApnaCollegeOfficial',
       name: 'Apna College',
@@ -57,7 +67,7 @@ export const videos = [
     id: '3',
     title: 'Open Source with OpenAI: My Contribution to Codex',
     thumbnailUrl: 'https://img.youtube.com/vi/iNWT3SAWBFA/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/3.gif',
+    thumbnailGif: gif3,
     channel: {
       id: 'harkirat1',
       name: 'Harkirat Singh',
@@ -74,7 +84,7 @@ export const videos = [
     title:
       'How to Crack Google SDE Interview in 2025 | Salary, Resume Tips, Referrals & Googliness Round',
     thumbnailUrl: 'https://img.youtube.com/vi/7ov9m7iioxg/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/4.gif',
+    thumbnailGif: gif4,
     channel: {
       id: 'mohammadfraz',
       name: 'Fraz',
@@ -90,7 +100,7 @@ export const videos = [
     id: '5',
     title: 'I built my own Protocol - Here is the reason!',
     thumbnailUrl: 'https://img.youtube.com/vi/r6lFBUytgDM/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/5.gif',
+    thumbnailGif: gif5,
     channel: {
       id: 'piyushgargdev',
       name: 'Piyush Garg',
@@ -106,7 +116,7 @@ export const videos = [
     id: '6',
     title: 'This Guy Is Banned From FAANG',
     thumbnailUrl: 'https://img.youtube.com/vi/H3wgAU0RVG0/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/6.gif',
+    thumbnailGif: gif6,
     channel: {
       id: 'ezsnippat',
       name: 'Neeraj Walia',
@@ -122,7 +132,7 @@ export const videos = [
     id: '7',
     title: 'Complete Pydantic course in Hindi',
     thumbnailUrl: 'https://img.youtube.com/vi/rE-y-yMIeok/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/7.gif',
+    thumbnailGif: gif7,
     channel: {
       id: 'chaiaurcode',
       name: 'Chai aur Code',
@@ -139,7 +149,7 @@ export const videos = [
     title:
       'How to Vibe code like a pro? What is Vibe Coding? Vibe Coding Tutorial',
     thumbnailUrl: 'https://img.youtube.com/vi/GE47BheqK9Q/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/8.gif',
+    thumbnailGif: gif8,
     channel: {
       id: 'NishantChahar11',
       name: 'Nishant Chahar',
@@ -155,7 +165,7 @@ export const videos = [
     id: '9',
     title: 'Run ChatGPT on Your Computer - WebLLM Explained',
     thumbnailUrl: 'https://img.youtube.com/vi/xEUbfrDvhSs/maxresdefault.jpg',
-    thumbnailGif: '/src/assets/gifs/9.gif',
+    thumbnailGif: gif9,
     channel: {
       id: 'sheryians',
       name: 'Sheryians Coding School',
