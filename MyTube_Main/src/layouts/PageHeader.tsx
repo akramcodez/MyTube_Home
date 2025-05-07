@@ -3,6 +3,7 @@ import logo from '../assets/logo.png';
 import { Button } from '../components/Button';
 import { useEffect, useRef, useState } from 'react';
 import useScreenSize from '../hooks/useScreenSize';
+import { useSideBarContext } from '../contexts/SidebarContext';
 
 interface PageHeaderProps {
   setSearchQuery?: (query: string) => void;
@@ -18,16 +19,12 @@ export default function PageHeader({ setSearchQuery }: PageHeaderProps) {
   useEffect(() => {
     if (isSmallScreen && isListening) {
       setShowFullWidthSearch(true);
-    }
-  }, [isSmallScreen, isListening]);
-
-  useEffect(() => {
-    if (isSmallScreen && showFullWidthSearch) {
+    } else if (isSmallScreen && showFullWidthSearch) {
       setShowFullWidthSearch(true);
     } else {
       setShowFullWidthSearch(false);
     }
-  }, [isSmallScreen, isListening]);
+  }, [isSmallScreen, isListening, showFullWidthSearch]);
 
   useEffect(() => {
     const SpeechRecognition =
@@ -116,28 +113,10 @@ export default function PageHeader({ setSearchQuery }: PageHeaderProps) {
 
   return (
     <div className="flex gap-10 lg:gap-20 justify-between pt-2 mb-6 mx-4">
-      <div
-        className={`gap-2.5 items-center flex-shrink-0 ${
-          showFullWidthSearch && isSmallScreen ? 'hidden' : 'flex'
-        }`}
-      >
-        <Button variant="ghost" size="icon">
-          <Menu />
-        </Button>
-        <a href="/" className="flex gap-1.5">
-          <img src={logo} className="h-8" alt="MyTube logo" />
-          <p
-            style={{
-              color: '#000',
-              fontSize: '1.4rem',
-              fontWeight: 700,
-              fontFamily: 'Poppins, sans-serif',
-            }}
-          >
-            MyTube
-          </p>
-        </a>
-      </div>
+      <PageHeaderTopSection
+        showFullWidthSearch={showFullWidthSearch}
+        isSmallScreen={isSmallScreen}
+      />
       <form
         className={`gap-4 flex-grow justify-center ${
           showFullWidthSearch ? 'flex' : 'hidden sm:flex'
@@ -219,6 +198,42 @@ export default function PageHeader({ setSearchQuery }: PageHeaderProps) {
           <User />
         </Button>
       </div>
+    </div>
+  );
+}
+
+type PageHeaderTopSectionProps = {
+  showFullWidthSearch?: boolean;
+  isSmallScreen: boolean;
+};
+
+export function PageHeaderTopSection({
+  showFullWidthSearch = false,
+  isSmallScreen,
+}: PageHeaderTopSectionProps) {
+  const { toggle } = useSideBarContext();
+  return (
+    <div
+      className={`gap-2.5 items-center flex-shrink-0 ${
+        showFullWidthSearch && isSmallScreen ? 'hidden' : 'flex'
+      }`}
+    >
+      <Button variant="ghost" size="icon" onClick={toggle}>
+        <Menu />
+      </Button>
+      <a href="/" className="flex gap-1.5">
+        <img src={logo} className="h-8" alt="MyTube logo" />
+        <p
+          style={{
+            color: '#000',
+            fontSize: '1.4rem',
+            fontWeight: 700,
+            fontFamily: 'Poppins, sans-serif',
+          }}
+        >
+          MyTube
+        </p>
+      </a>
     </div>
   );
 }

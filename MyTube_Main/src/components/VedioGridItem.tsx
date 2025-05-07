@@ -102,10 +102,10 @@ export function VideoGridItem({
           <img className="w-12 h-12 rounded-full" src={channel.profileUrl} />
         </a>
         <div className="flex flex-col">
-          <a href="/" className="font-bold text-sm">
+          <a href={`/watch?v=${id}`} className="font-bold text-sm">
             {title}
           </a>
-          <a href="/" className="text-gray-600 text-sm">
+          <a href={`/watch?v=${id}`} className="text-gray-600 text-sm">
             {channel.name}
           </a>
           <div className="text-gray-500 text-sm">

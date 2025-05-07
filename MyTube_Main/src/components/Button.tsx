@@ -2,7 +2,7 @@ import { cva, type VariantProps } from 'class-variance-authority';
 import { cn } from '../lib/util';
 import { ComponentProps } from 'react';
 
-const buttonVariants = cva(['transition-colors'], {
+export const buttonVariants = cva(['transition-colors'], {
   variants: {
     variant: {
       default: ['bg-gray-100', 'hover:bg-secondary-hover'],
