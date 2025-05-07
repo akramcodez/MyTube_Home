@@ -66,17 +66,9 @@ export function Sidebar() {
         }`}
       >
         <SmallSidebarItem IconOrImgUrl={Home} title="Home" url="/" />
-        <SmallSidebarItem IconOrImgUrl={Repeat} title="Shorts" url="/shorts" />
-        <SmallSidebarItem
-          IconOrImgUrl={Clapperboard}
-          title="Subs"
-          url="/subscriptions"
-        />
-        <SmallSidebarItem
-          IconOrImgUrl={Library}
-          title="Library"
-          url="/library"
-        />
+        <SmallSidebarItem IconOrImgUrl={Repeat} title="Shorts" url="/" />
+        <SmallSidebarItem IconOrImgUrl={Clapperboard} title="Subs" url="/" />
+        <SmallSidebarItem IconOrImgUrl={Library} title="Library" url="/" />
       </aside>
       <aside
         ref={sidebarRef}
@@ -86,40 +78,24 @@ export function Sidebar() {
       >
         <LargeSidebarSection>
           <LargeSidebarItem isActive IconOrImgUrl={Home} title="Home" url="/" />
-          <LargeSidebarItem
-            IconOrImgUrl={Clapperboard}
-            title="Subs"
-            url="/subscriptions"
-          />
+          <LargeSidebarItem IconOrImgUrl={Clapperboard} title="Subs" url="/" />
         </LargeSidebarSection>
         <hr />
         <LargeSidebarSection visibleItemCount={5}>
-          <LargeSidebarItem
-            IconOrImgUrl={Library}
-            title="Library"
-            url="/library"
-          />
-          <LargeSidebarItem
-            IconOrImgUrl={History}
-            title="History"
-            url="/history"
-          />
+          <LargeSidebarItem IconOrImgUrl={Library} title="Library" url="/" />
+          <LargeSidebarItem IconOrImgUrl={History} title="History" url="/" />
           <LargeSidebarItem
             IconOrImgUrl={PlaySquare}
             title="Your Videos"
-            url="/your-videos"
+            url="/"
           />
-          <LargeSidebarItem
-            IconOrImgUrl={Clock}
-            title="Watch Later"
-            url="/playlist?list"
-          />
+          <LargeSidebarItem IconOrImgUrl={Clock} title="Watch Later" url="/" />
           {playLists.map((playList) => (
             <LargeSidebarItem
               key={playList.id}
               IconOrImgUrl={ListVideo}
               title={playList.name}
-              url={`/playlist?list=${playList.id}`}
+              url={`/`}
             />
           ))}
         </LargeSidebarSection>
@@ -136,49 +112,25 @@ export function Sidebar() {
         </LargeSidebarSection>
         <hr />
         <LargeSidebarSection title="Explore">
-          <LargeSidebarItem
-            IconOrImgUrl={Flame}
-            title="Trending"
-            url="/trending"
-          />
+          <LargeSidebarItem IconOrImgUrl={Flame} title="Trending" url="/" />
           <LargeSidebarItem
             IconOrImgUrl={ShoppingBag}
             title="Shopping"
-            url="/shopping"
+            url="/"
           />
           <LargeSidebarItem IconOrImgUrl={Music2} title="Music" url="/music" />
-          <LargeSidebarItem
-            IconOrImgUrl={Film}
-            title="Movies & Tv"
-            url="/movies_tv"
-          />
+          <LargeSidebarItem IconOrImgUrl={Film} title="Movies & Tv" url="/" />
           <LargeSidebarItem IconOrImgUrl={Newspaper} title="News" url="/news" />
-          <LargeSidebarItem
-            IconOrImgUrl={Trophy}
-            title="Sports"
-            url="/sports"
-          />
-          <LargeSidebarItem
-            IconOrImgUrl={Lightbulb}
-            title="Learning"
-            url="/learning"
-          />
+          <LargeSidebarItem IconOrImgUrl={Trophy} title="Sports" url="/" />
+          <LargeSidebarItem IconOrImgUrl={Lightbulb} title="Learning" url="/" />
           <LargeSidebarItem
             IconOrImgUrl={Shirt}
             title="Fashion & Beauty"
-            url="/fashion_beauty"
+            url="/"
           />
-          <LargeSidebarItem
-            IconOrImgUrl={Podcast}
-            title="Podcasts"
-            url="/podcasts"
-          />
+          <LargeSidebarItem IconOrImgUrl={Podcast} title="Podcasts" url="/" />
           <LargeSidebarItem IconOrImgUrl={Radio} title="Live" url="/live" />
-          <LargeSidebarItem
-            IconOrImgUrl={Gamepad2}
-            title="Gaming"
-            url="/gaming"
-          />
+          <LargeSidebarItem IconOrImgUrl={Gamepad2} title="Gaming" url="/" />
         </LargeSidebarSection>
       </aside>
     </>
